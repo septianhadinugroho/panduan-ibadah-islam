@@ -1,0 +1,27 @@
+{
+  "name": "Panduan Ibadah Islam Lengkap",
+  "short_name": "Panduan Ibadah",
+  "description": "Panduan lengkap ibadah Islam meliputi thaharah, shalat, zakat, haji, khutbah, pengurusan jenazah, dan penyembelihan hewan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle", "reference"],
+  "lang": "id",
+  "dir": "ltr"
+}
