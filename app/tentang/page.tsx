@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Code, Database, Globe, Smartphone } from "lucide-react"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Tentang Kami - Panduan Ibadah Islam",
@@ -127,6 +128,7 @@ export default function TentangPage() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

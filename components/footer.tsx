@@ -80,7 +80,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 Panduan Ibadah Islam. Semua hak dilindungi.</p>
+          <p>&copy; 2025 Panduan Ibadah Islam. Semua hak dilindungi.</p>
         </div>
       </div>
     </footer>

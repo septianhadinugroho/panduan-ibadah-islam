@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Linkedin, Instagram, Mail, MessageCircle } from "lucide-react"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Kontak Kami - Panduan Ibadah Islam",
@@ -150,7 +151,7 @@ export default function KontakPage() {
                     className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
                   >
                     <a
-                      href="https://instagram.com/septian.hadi.nugroho"
+                      href="https://instagram.com/septianhnr"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center space-x-2"
@@ -165,6 +166,7 @@ export default function KontakPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
